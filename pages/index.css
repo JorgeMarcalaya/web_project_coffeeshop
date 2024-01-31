@@ -191,7 +191,7 @@
   font-size: 44px;
   line-height: 52px;
 }
-.form__fieldset {
+.form__fieldset_ctrl {
   display: flex;
   flex-direction: column;
   margin-left: 0;

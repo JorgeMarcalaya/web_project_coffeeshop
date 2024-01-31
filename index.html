@@ -100,7 +100,58 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="anclaje-reservation"></section>
+        <section class="reservation" id="anclaje-reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="nombre" class="form__label"
+                >Nombre *
+                <input
+                  class="form__input"
+                  type="text"
+                  placeholder="Nombre Apellido"
+                  id="nombre"
+                  required
+                />
+              </label>
+              <label for="number" class="form__label"
+                >Numero de comensales *
+                <input
+                  class="form__input"
+                  type="number"
+                  placeholder="1-8"
+                  id="number"
+                  required
+                />
+              </label>
+              <label for="datetime-local" class="form__label"
+                >Fecha y Hora *
+                <input
+                  class="form__input"
+                  type="datetime-local"
+                  id="datetime-local"
+                  required
+                />
+              </label>
+              <label for="email" class="form__label"
+                >Tu correo electrónico *
+                <input
+                  class="form__input"
+                  type="email"
+                  placeholder="email@email.com"
+                  id="email"
+                  required
+                />
+              </label>
+              <button class="form__button">Reservar una mesa</button>
+              <label class="form__label form__label_el_checkbox" for="checkbox">
+                <input class="form__checkbox" type="checkbox" />
+                <span class="form__pseudo-checkbox"></span>Acepto los términos
+                de uso</label
+              >
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="anclaje-menu"></section>
         <section class="about" id="anclaje-about"></section>
       </main>

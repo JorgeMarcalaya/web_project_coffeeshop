@@ -1,0 +1,48 @@
+.about {
+  background-color: #0a2850;
+  color: #fff;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.about__title {
+  max-width: 251px;
+  margin-left: 80px;
+  margin-top: 100px;
+  margin-bottom: 0;
+  z-index: 1;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.about__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 119px;
+  margin-right: 80px;
+  margin-bottom: 173px;
+  max-width: 660px;
+  row-gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+.about__paragraph {
+  font-family: "Noto Serif", "Times New Roman", "serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: 0;
+}

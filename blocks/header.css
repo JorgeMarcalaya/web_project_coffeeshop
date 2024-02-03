@@ -23,7 +23,7 @@
   line-height: 72px;
   letter-spacing: 0.6px;
 }
-.span-accent {
+.header__title_span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", "serif";
   font-style: italic;

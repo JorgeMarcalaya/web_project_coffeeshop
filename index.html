@@ -7,7 +7,6 @@
     <meta name="author" content="Jorge" />
     <meta name="keywords" content="html,css" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -152,10 +151,144 @@
             </fieldset>
           </form>
         </section>
-        <section class="menu" id="anclaje-menu"></section>
-        <section class="about" id="anclaje-about"></section>
+        <section class="menu" id="anclaje-menu">
+          <h2 class="menu__title">Menú</h2>
+          <p class="menu__subtitle">
+            Elaboramos nuestro café con granos certificados de comercio justo,
+            tostados localmente, y usamos tazas biodegradables. Todos los tés de
+            nuestra colección a $2/taza.
+          </p>
+          <ul class="menu__cards">
+            <li class="card">
+              <h2 class="card__title">De filtro</h2>
+              <ul class="card__content">
+                <li class="card__list-item">
+                  Regular (350 ml)
+                  <span class="card__list-divider"></span>$1
+                </li>
+                <li class="card__list-item">
+                  Grande (470 ml)
+                  <span class="card__list-divider"></span>$1.25
+                </li>
+                <li class="card__list-item">
+                  XL (590 ml)
+                  <span class="card__list-divider"></span>$1.5
+                </li>
+                <li class="card__list-item">
+                  Tamaño familiar (700 ml, descafeinado)
+                  <span class="card__list-divider"></span>$1.75
+                </li>
+                <li class="card__list-item">
+                  Café helado (470 ml)
+                  <span class="card__list-divider"></span>$1.25
+                </li>
+              </ul>
+            </li>
+            <li class="card">
+              <h2 class="card__title">Espresso</h2>
+              <ul class="card__content">
+                <li class="card__list-item">
+                  Macchiato
+                  <span class="card__list-divider"></span>$2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado
+                  <span class="card__list-divider"></span>$2.5
+                </li>
+                <li class="card__list-item">
+                  Mocha
+                  <span class="card__list-divider"></span>$3
+                </li>
+                <li class="card__list-item">
+                  Amanecer en Bay Area (descafeinado)
+                  <span class="card__list-divider"></span>$10
+                </li>
+              </ul>
+            </li>
+            <li class="card">
+              <h2 class="card__title">Repostería</h2>
+              <ul class="card__content">
+                <li class="card__list-item">
+                  Croissant de almendra
+                  <span class="card__list-divider"></span>$2
+                </li>
+                <li class="card__list-item">
+                  Pan de banana
+                  <span class="card__list-divider"></span>$1.75
+                </li>
+                <li class="card__list-item">
+                  Tarta de limón
+                  <span class="card__list-divider"></span>$3
+                </li>
+                <li class="card__list-item">
+                  Pastel Blue velvet
+                  <span class="card__list-divider"></span>$3.75
+                </li>
+                <li class="card__list-item">
+                  Cookie web
+                  <span class="card__list-divider"></span>$2
+                </li>
+                <li class="card__list-item">
+                  Baguette fresco
+                  <span class="card__list-divider"></span>$0.25
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="about" id="anclaje-about">
+          <h2 class="about__title">Sobre la cafetería</h2>
+          <ul class="about__content">
+            <li class="about__paragraph">
+              Nuestra cafetería se ubica en la Biblioteca Triple Peaks. Cuenta
+              con 6 mesas y WiFi gratuito.
+            </li>
+            <li class="about__paragraph">
+              Nuestra principal misión es mantener a nuestros comensales cómodos
+              y con energía.
+            </li>
+            <li class="about__paragraph">
+              Además, buscamos reducir nuestro impacto ambiental, así que no
+              vendemos tazas de un solo uso. ¡Pero puedes comprar una de
+              nuestras tazas reutilizables!
+            </li>
+          </ul>
+          <div class="about__circle"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo footer"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Redes Sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Icon Facebook"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Icon Instagram"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&#169; 2023 Jorge</p>
+      </footer>
     </div>
   </body>
 </html>
